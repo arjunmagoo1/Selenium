@@ -20,7 +20,7 @@ public class testdata {
         WebDriver driver = new ChromeDriver();
 
         // Navigate to the specified URL
-        driver.get("https://demoqa.com");
+       // driver.get("https://demoqa.com");
         
         WebElement linkElement = driver.findElement(By.cssSelector("a[href='https://www.toolsqa.com/selenium-training/']"));
        linkElement.click();
